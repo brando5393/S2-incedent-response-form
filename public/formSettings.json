@@ -1,0 +1,22 @@
+{
+    "employeeInformation":{
+        "departments": [
+            "sales",
+            "marketing",
+            "accounting",
+            "human resources (HR)",
+            "information technology (IT)",
+            "production",
+            "distribution",
+            "public relations (PR)",
+            "other"
+        ]
+    },
+    "incidentInformation":{
+        "severityLevels":["low", "medium", "high","critical"],
+        "functionalImpactLevels":["none","low", "medium", "high"],
+        "informationImpactLevels":["none", "privacy breach", "proprietary breach", "integrity breach"],
+        "recoverabilityLevels":["regular", "supplemental","extended","not recoverable"]
+    }
+    
+}

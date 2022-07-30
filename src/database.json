@@ -1,0 +1,62 @@
+{
+    "incidents": [
+        {
+            "id": 123456789,
+            "employeeContactInformation": {
+                "name": "John Joe",
+                "phone": 5555555555,
+                "email": "jdoe@discountjuiceshop.com",
+                "employeeId": 584496596,
+                "department": "sales"
+            },
+            "incidentInformation":{
+                "dateTimeOccurred": "Thu May 26 2022 04:47:35 GMT-0500 (Central Daylight Time)",
+                "dateTimeDiscovered": "Mon May 30 2022 22:16:25 GMT-0500 (Central Daylight Time)",
+                "machines_affected": 1,
+                "assetTags": [587964],
+                "descriptionOfIncident": "Ransomware found on system after employee opened e-mail attachment.",
+                "methodOfAttack": "Infected E-mail",
+                "malwareName": "wanacry",
+                "perpetratorsMotivation": "unknown",
+                "severity": "low",
+                "functionalImpact": "low",
+                "informationImpact": "none",
+                "recoverability": "regular"
+            },
+            "systemInformation":{
+                "ipAddress": [],
+                "macAddress": [],
+                "domainName": [],
+                "systemPurpose": [],
+                "operatingSystem": [],
+                "operatingSystemVersion": [],
+                "dateTimeOfLastPatch": [],
+                "lastUser": []
+
+                
+
+            },
+            "attackerInformation": {
+                "ipAddress": [],
+                "macAddress": [],
+                "domainName": [],
+                "systemPurpose": [],
+                "operatingSystem": [],
+                "operatingSystemVersion": []
+            },
+            "administrativeInformation": {
+                "headInvestigator": "John Smith",
+                "reviewedBy": "CISO",
+                "dateTimeOfReview": "Mon Jun 6 2022 14:46:11 GMT-0500 (Central Daylight Time)",
+                "finalStatus": "open"
+            },
+            "notes": [
+                {
+                    "dateTime": "Wed May 25 2022 23:53:59 GMT-0500 (Central Daylight Time)",
+                    "investigator": "John Smith",
+                    "contents": "Esse ad reiciendis neque et error corrupti eligendi blanditiis."
+                }
+            ]
+        }
+    ]
+}
